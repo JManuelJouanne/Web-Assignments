@@ -1,0 +1,19 @@
+{
+    "name": "restricciones_sanitarias",
+    "version": "1.0.0",
+    "type": "commonjs",
+    "description": "Restricciones sanitarias",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "mocha test/*.js"
+    },
+    "keywords": [
+      "node",
+      "javascript"
+    ],
+    "dependencies": {
+      "readline": "^1.3.0"
+    }
+  }
+  

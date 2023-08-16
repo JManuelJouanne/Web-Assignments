@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #eacfff7f;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b497c5;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #a290c2;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    justify-content: left;
+    float: left;
+    width: 49%;
+    height: 220px; /* Should be removed. Only for demonstration */
+    background-color: #c6b2d0;
+    margin: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        height: 110px;
+    }
+}
+
+.cover {
+    display: flex;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    .cover {
+        height: 100px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+.info {
+    text-align: left;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .info {
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size:small;/**/
+        line-height: 30%;
+    }
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+

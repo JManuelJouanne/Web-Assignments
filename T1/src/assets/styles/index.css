@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #eacfff7f;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    text-align: center;
+    background-color: #b497c5;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+img#foto {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 54px;
+    padding-right: 54px;
+    width: 500px;
+}
+
+div#pic{
+    display: flex;
+    justify-content: center;
+    background-color: #b497c5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b497c5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #a290c2;
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+

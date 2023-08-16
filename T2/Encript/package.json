@@ -1,0 +1,9 @@
+{
+    "name": "encypt",
+    "version": "1.0.0",
+    "description": "A simple encryption and decryption module",
+    "main": "index.js",
+    "dependencies": {
+        "readline": "^1.3.0"
+    }
+}
